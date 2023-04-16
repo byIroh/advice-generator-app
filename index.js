@@ -38,5 +38,3 @@ function updateAdvice(data) {
 randomAdviceButton.addEventListener("click", () => {
   getAdvice();
 });
-
-getAdvice();
