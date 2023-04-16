@@ -1,0 +1,94 @@
+body {
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  padding: 0 1rem;
+}
+
+main {
+  background-color: hsl(219, 19%, 24%);
+  border-radius: 0.62rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 19.7rem;
+  padding: 2.25rem 1.5rem 3.75rem;
+  position: relative;
+  text-align: center;
+  min-width: 18.43rem;
+}
+
+.advice-id {
+  color: hsl(150, 100%, 66%);
+  font-size: 0.67rem;
+  font-weight: 600;
+  letter-spacing: 0.22rem;
+}
+
+.advice {
+  color: hsl(193, 38%, 86%);
+  font-size: 1.5rem;
+  margin: auto;
+  max-width: 19ch;
+  padding: 1.35rem 0;
+}
+
+.pattern-divider-wrapper {
+  justify-self: end;
+}
+
+.pattern-divider-mobile {
+  min-width: 100%;
+}
+
+.pattern-divider-desktop {
+  display: none;
+}
+
+.random-advice-btn {
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  border-radius: 50%;
+  padding: 1.21rem;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.random-advice-btn:hover {
+  box-shadow: 0 0 2.4rem hsl(150, 100%, 66%);
+}
+
+@media (min-width: 376px) {
+  main {
+    border-radius: 0.92rem;
+    min-height: 21rem;
+    width: 35rem;
+    padding: 2.8rem 3rem 4.25rem;
+  }
+
+  .advice-id {
+    font-size: 0.8rem;
+    letter-spacing: 0.275rem;
+  }
+
+  .advice {
+    font-size: 1.75rem;
+    max-width: 24ch;
+    padding: 1.35rem 0 2.3rem;
+  }
+
+  .pattern-divider-mobile {
+    display: none;
+    min-width: 100%;
+  }
+
+  .pattern-divider-desktop {
+    min-width: 100%;
+    display: block;
+  }
+}
