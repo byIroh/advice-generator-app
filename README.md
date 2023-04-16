@@ -4,7 +4,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-mobile-first-_1wtP4eht0)
 - Live Site URL: [GitHub Pages](https://byiroh.github.io/advice-generator-app/)
 
 ## Table of contents
