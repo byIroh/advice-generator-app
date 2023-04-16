@@ -5,7 +5,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://github.com/byIroh/expenses-chart-component)
+- Live Site URL: [GitHub Pages](https://byiroh.github.io/advice-generator-app/)
 
 ## Table of contents
 
