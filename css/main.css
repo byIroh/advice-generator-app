@@ -8,6 +8,12 @@ body {
   padding: 0 1rem;
 }
 
+.sr-only {
+  color: transparent;
+  position: absolute;
+  top: 0;
+}
+
 main {
   background-color: hsl(219, 19%, 24%);
   border-radius: 0.62rem;
